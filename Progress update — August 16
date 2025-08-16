@@ -1,0 +1,15 @@
+## Progress update — August 16  
+
+Completed Phase 2.1 & 2.2:
+- Implemented Firebase authentication (login/signup flow + AuthContext)
+- Integrated Supabase (Postgres) for persistent user profiles
+- Created `users` table: UID, email, display_name, specialty, ELO
+- Added onboarding step: specialty selection
+- Dashboard now displays user specialty + starting ELO (1000)
+
+📍 Next:  
+- Filter questions by specialty  
+- Update ELO dynamically after SoloQ rounds  
+- Start building the ranking system  
+
+MedQ is moving from basic auth to structured user data. The foundation for specialty-based practice and ELO-driven progression is now live.
